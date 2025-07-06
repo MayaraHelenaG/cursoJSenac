@@ -72,3 +72,12 @@ let areaTriangulo = tria1 * tria2 / 2;
 
 alert("A área do Triângulo é: " + areaTriangulo);
 
+// Área de um dado
+
+let dado1 = Number(prompt("Digite a medida da base do triângulo"));
+let dado2 = Number(prompt("Digite a medida da altura do triângulo"));
+let areaDado = dado1 * dado2 / 2;
+
+alert("A área do Triângulo é: " + areaDado);
+
+
