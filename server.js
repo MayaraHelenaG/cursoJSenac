@@ -72,12 +72,21 @@ let areaTriangulo = tria1 * tria2 / 2;
 
 alert("A área do Triângulo é: " + areaTriangulo);
 
-// Área de um dado
+// Área de um círculo
 
-let dado1 = Number(prompt("Digite a medida da base do triângulo"));
-let dado2 = Number(prompt("Digite a medida da altura do triângulo"));
-let areaDado = dado1 * dado2 / 2;
 
-alert("A área do Triângulo é: " + areaDado);
+let raio = Number(prompt ("Digite a medida do raio do círculo"));
+let areaRaio = Math.PI * Math.pow(raio, 2);
+
+alert("A área do círculo é: " + areaRaio.toFixed(2));
+
+// área de um trapézio 
+
+let baseMaior = Number(prompt("Digite a medida da base maior"));
+let baseMenor = Number(prompt("Digite a medida da base menor"));
+let altura1 = Number(prompt("Digite a altura do trapézio"));
+let areaTrapezio = baseMaior + baseMenor * altura1 / 2;
+
+alert("A área do trapézio é: " + areaTrapezio);
 
 

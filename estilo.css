@@ -1,4 +1,11 @@
-alert{ color: blueviolet;
+h1 {
 
+    text-align: center;
+    color:#228B22 ;
+}
+ 
+p {
+    text-align: center;
+    color: #a61414;
 }
 
