@@ -88,5 +88,5 @@ let altura1 = Number(prompt("Digite a altura do trapézio"));
 let areaTrapezio = baseMaior + baseMenor * altura1 / 2;
 
 alert("A área do trapézio é: " + areaTrapezio);
-
+// inserindo comentários// 
 

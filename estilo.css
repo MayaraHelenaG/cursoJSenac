@@ -1,11 +1,13 @@
 h1 {
 
     text-align: center;
-    color:#228B22 ;
+    color:#289428 ;
+   
 }
  
 p {
     text-align: center;
-    color: #a61414;
-}
+    color: #804040;
+    word-break: break-word;
+   }
 
