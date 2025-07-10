@@ -1,7 +1,7 @@
 // Estudando JavaScript 
 // EPS = Entrada, Processamento e Saída
 // var, let e const são formas de declarar variáveis em JavaScript.
-// const é usada para valores fixos. let é a forma mais moderna e flexível.
+// const é usada para valores fixos. let é a forma mais moderna e flexível mas no let a variável não pode ser redeclarado. 
 // alert() exibe mensagem em pop-up.
 // prompt() solicita dados do usuário (retorna string).
 // Number() converte string em número real. 
