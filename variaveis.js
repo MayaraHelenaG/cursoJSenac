@@ -7,7 +7,7 @@
 // Number() converte string em número real. 
 // document.getElementById("texto")inner.HTML imprimir texto na tela
 
-document.getElementById ("texto").innerHTML="Meu primeiro texto em <b>JS</b>!";
+document.getElementById ("text1").innerHTML="Meu primeiro texto em <b>JS</b>!";
 console.log("Oi isso é um console.log");
 
 // declaração das variáveis com números
@@ -39,14 +39,9 @@ nomeCompleto =  nome + " " + sobrenome;
 soma = idade + 10;
 pessoa = nome + " " + soma;
 
-document.getElementById('texto').innerHTML = pessoa;
+document.getElementById("texto").innerHTML = pessoa; 
 
 // prática comum é utilizar o LET para tudo. 
 // O const significa constante. Algo que nunca pode mudar. É a regra mais estrita do JS de todas. Uma vez que se cria uma const, não muda em lugar nenhum. 
-// let x = 10; (aqui é 10) 
-
-
-
-
-
-
+/* let x = 10; (aqui é 10)
+{ let x = 2;} aqui o let é 2. Isso no mesmo código é permitido. Já o const, não é permitido mesmo dentro de chaves (bloco) {}.*/
