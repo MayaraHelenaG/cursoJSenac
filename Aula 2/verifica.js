@@ -1,4 +1,6 @@
-
+function calculadora() {
+    alert("Calculadora");
+}
 
 let num = Number(prompt("Digite seu número aqui"));
 
