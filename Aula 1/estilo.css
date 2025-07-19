@@ -1,0 +1,21 @@
+h1 {
+
+    text-align: center;
+    color:#289428 ;
+   
+}
+ 
+p {
+    text-align: center;
+    color: #804040;
+    word-break: break-word;
+   }
+
+ button {
+    display: block;
+    margin: 0 auto;
+    color: #04ea5c;
+}
+
+
+
