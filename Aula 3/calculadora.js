@@ -1,7 +1,7 @@
 function calculadora() {
     alert("Calculadora");
     
-// Imprime números de 0 até 1
+// Imprime números de 0 até 10
     var i = 0;
     for (i ; i <= 10; i++) {
     console.log(i);
@@ -23,7 +23,7 @@ function calculadora() {
 
       let num = Number(prompt("Digite o número 5 para ver a tabuada"));
       for ( let i = 0; i <=10; i++) {
-       alert(num * i)    
+       console.log(num * i)    
         }
 
 }
