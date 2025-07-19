@@ -21,9 +21,9 @@ function calculadora() {
    
     // tabuada do 5 
 
-      let num = 5 
+      let num = Number(prompt("Digite o número 5 para ver a tabuada"));
       for ( let i = 0; i <=10; i++) {
-       console.log(num * i)    
+       alert(num * i)    
         }
 
 }
