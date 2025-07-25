@@ -1,21 +1,66 @@
-h1 {
-
-    text-align: center;
-    color:#289428 ;
-   
+/* Estilo da scrollbar para navegadores WebKit (Chrome, Edge, Safari) */
+::-webkit-scrollbar {
+  width: 12px;               /* largura da barra vertical */
+  height: 12px;              /* altura da barra horizontal */
 }
+
+::-webkit-scrollbar-track {
+  background: #f0f0f0;       /* fundo da barra */
+  border-radius: 10px;       /* cantos arredondados do track */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #a41585;    /* cor da “pegada” */
+  border-radius: 10px;       /* cantos arredondados do thumb */
+  border: 3px solid #f0f0f0; /* borda para criar efeito de “moldura” */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #310101;    /* cor ao passar o mouse */
+}
+
+/* Estilo da scrollbar para Firefox */
+body {
+  scrollbar-width: thin;         /* largura fina */
+  scrollbar-color: #690404 #5f1212; /* cor da pegada e da track */
+}
+
+
+.header-box {
+  background-color: rgb(245, 223, 220); /* Cor de fundo da caixa */
+  padding: 10px 20px;  /* Espaço interno: 10px em cima/baixo e 20px nas laterais */
+  border-radius: 12px; /* Bordas arredondadas com raio de 12 pixels */
+  margin: 20px auto;   /* Espaço externo: 20px em cima/baixo e centraliza horizontalmente */
+  width: fit-content;  /* A largura da caixa se ajusta ao tamanho do conteúdo */
+  text-align: center;  /* Centraliza o texto dentro da caixa */
+  
+}
+
+
+
  
 p {
     text-align: center;
-    color: #804040;
+    color: #000000;
     word-break: break-word;
    }
 
- button {
+button {
+
+    color: rgb(240, 71, 5);
+     border: 0;
+    padding: 10px;
+    width: 200px;
+    height: 50px;
     display: block;
-    margin: 0 auto;
-    color: #04ea5c;
+    margin: auto;
+    cursor: pointer;
+    border-radius: 4px;
+    }
+
+div {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  margin-top: 10px;
 }
-
-
 

@@ -1,20 +1,55 @@
-button {
-
-    color: blueviolet;
-     border: 0;
-    padding: 10px;
-    width: 200px;
-    height: 50px;
-    display: inline-block;
-    margin: auto;
-    cursor: pointer;
-    border-radius: 4px;
-    }
-
-h1 {
-
-    color: brown;
-    text-align: center;
-
+/* Estilo da scrollbar para navegadores WebKit (Chrome, Edge, Safari) */
+::-webkit-scrollbar {
+  width: 12px;               /* largura da barra vertical */
+  height: 12px;              /* altura da barra horizontal */
 }
 
+::-webkit-scrollbar-track {
+  background: #f0f0f0;       /* fundo da barra */
+  border-radius: 10px;       /* cantos arredondados do track */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #a41585;    /* cor da “pegada” */
+  border-radius: 10px;       /* cantos arredondados do thumb */
+  border: 3px solid #f0f0f0; /* borda para criar efeito de “moldura” */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #310101;    /* cor ao passar o mouse */
+}
+
+h1 {
+  color: brown;
+  text-align: center;
+}
+
+
+button {
+  color: rgb(222, 2, 163);
+  border: 0;
+  padding: 10px;
+  width: 250px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px auto;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.botoes-container {
+  display: flex;          /* coloca os botões em linha */
+  flex-wrap: wrap;        /* se não couber, quebra para a linha de baixo */
+  gap: 10px;              /* espaço entre os botões */
+  justify-content: center;/* centraliza no meio da tela */
+  margin: 10px auto;      /* espaço externo e centraliza */
+}
+
+
+div {
+  color: brown;
+  text-align: center;
+  margin-bottom: 20px;
+}

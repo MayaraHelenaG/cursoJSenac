@@ -6,7 +6,7 @@
 // prompt() solicita dados do usuário (retorna string).
 // Number() converte string em número real. 
 
-function calculadora() {
+function calculadoraAula1() {
     alert("Calculadora");
 
     let num1 = Number(prompt("Digite um número aqui para somar"));
@@ -80,4 +80,4 @@ function calculadora() {
 
 // inserindo comentários// 
 
-document.getElementById('btnCalc').addEventListener('click', calculadora);
+document.getElementById('btnCalc').addEventListener('click', calculadoraAula1);
