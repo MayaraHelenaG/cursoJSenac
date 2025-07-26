@@ -46,17 +46,26 @@ p {
    }
 
 button {
+  color: rgb(222, 2, 163);
+  border: 0;
+  padding: 10px;
+  width: 250px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px auto;
+  cursor: pointer;
+  border-radius: 8px;
+}
 
-    color: rgb(240, 71, 5);
-     border: 0;
-    padding: 10px;
-    width: 200px;
-    height: 50px;
-    display: block;
-    margin: auto;
-    cursor: pointer;
-    border-radius: 4px;
-    }
+.botoes-container {
+  display: flex;          /* coloca os botões em linha */
+  flex-wrap: wrap;        /* se não couber, quebra para a linha de baixo */
+  gap: 10px;              /* espaço entre os botões */
+  justify-content: center;/* centraliza no meio da tela */
+  margin: 10px auto;      /* espaço externo e centraliza */
+}
 
 div {
   text-align: center;

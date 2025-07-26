@@ -1,8 +1,10 @@
-// Exercícios com if, else e for
+// Exercícios com for
 
 let mostrandoEx1 = false;
 let mostrandoEx2 = false;
 let mostrandoEx3 = false;
+
+//Números de 1 a 30 múltiplos de 3
 
 function exercicio1() {
   const div = document.getElementById("resultado1");
@@ -19,6 +21,8 @@ function exercicio1() {
     mostrandoEx1 = false;
   }
 }
+
+//Contar de 0 a 50 e dizer se é par ou ímpar
 
 function exercicio2() {
   const div = document.getElementById("resultado2");
@@ -38,6 +42,7 @@ function exercicio2() {
   }
 }
 
+//Tabuada do número 6
 function exercicio3() {
   const div = document.getElementById("resultado3");
   if (!mostrandoEx3) {
@@ -52,6 +57,7 @@ function exercicio3() {
   }
 }
 
+// Imprimir números de 10 a 0 em contagem regressiva
 let mostrandoEx4 = false;
 
 function exercicio4() {
@@ -68,6 +74,7 @@ function exercicio4() {
   }
 }
 
+//Contando de 5 em 5 até 50
 let mostrandoEx5 = false;
 
 function exercicio5() {
@@ -83,6 +90,7 @@ function exercicio5() {
     mostrandoEx5 = false;
   }
 }
+// Verificar números de 1 a 20
 
 let mostrandoEx6 = false;
 
@@ -106,7 +114,9 @@ function exercicio6() {
   }
 }
 
+// Exercícios com while
 
+// Imprima os números pares de 0 a 20 com while.
 let mostrandoEx7 = false;
 
 function exercicio7() {
@@ -127,6 +137,8 @@ function exercicio7() {
     mostrandoEx7 = false;
   }
 }
+
+//Conte de 1 a 25 e diga se o número é múltiplo de 5.
 
 let mostrandoEx8 = false;
 
@@ -150,6 +162,7 @@ function exercicio8() {
   }
 }
 
+//Imprima a sequência 2, 4, 6, ..., até 20.
 let mostrandoEx9 = false;
 
 function exercicio9() {
@@ -168,6 +181,8 @@ function exercicio9() {
   }
 }
 
+//Conte de 15 a 5, diminuindo de 1 em 1.
+
 let mostrandoEx10 = false;
 
 function exercicio10() {
@@ -185,6 +200,8 @@ function exercicio10() {
     mostrandoEx10 = false;
   }
 }
+
+//Some os números de 1 a 10 com while e mostre o total.
 
 let mostrandoEx11 = false;
 
@@ -205,6 +222,8 @@ function exercicio11() {
     mostrandoEx11 = false;
   }
 }
+
+//Use prompt() para pedir um número e imprima todos os números de 1 até esse número com while.
 
 let mostrandoEx12 = false;
 
